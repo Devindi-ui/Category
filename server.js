@@ -3,7 +3,7 @@ require('dotenv').config();
 
 const app = express();
 
-const categoryRoutes = require('/routes/categoryRoutes');
+const categoryRoutes = require('./routes/categoryRoutes');
 
 app.use(express.json());
 
